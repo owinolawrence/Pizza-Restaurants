@@ -14,7 +14,7 @@ If delivery	user enters name and location	displays checkout button for order sum
 
 
 ## Installation
-clone this link  () to install pizza restaurant.
+clone this link  (https://github.com/owinolawrence/Pizza-Restaurants.git) to install pizza restaurant.
 
 
 ## Known Bugs
