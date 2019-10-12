@@ -126,3 +126,23 @@ h3{
     img{
         width: 400px;
     }
+    .footer{
+        background-color: rgb(24, 20, 20);
+    }
+    h5{
+        color: white;
+        font-size: 60%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .caption {
+ 
+        cursor: pointer;
+        color:white;
+        font-size: 20px;
+      
+      }
+      p:hover{
+        text-decoration: underline;
+        color: blue;
+      }
