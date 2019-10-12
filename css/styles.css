@@ -1,0 +1,13 @@
+.Home{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/22/19/12/pizza-2000595__340.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+h1{
+color:white;
+text-transform: uppercase;
+text-align: center;
+font-size: 50px;
+
+}
