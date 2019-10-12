@@ -58,7 +58,12 @@
 //   order calculation
   function calculate(event) {
     var calculate = (Size() + Crust()  + getSpinach() + getPepper()+ getBacon() +getSausage()) * getNumber() ;
-    document.getElementById("showleft").innerHTML = "Hello ,your order is " + '' + getNumber() + '' +  '' + "pizza" +" cost  is ksh. " + (calculate);
+    document.getElementById("showleft").innerHTML = "Hello ,your order is " + '' + getNumber() + '' +'' +  '' + "pizza" +" cost  is ksh. " + (calculate);
     event.preventDefault();}
-
+//    Total price plus delivery charge 
+  function Total(){
+    var add = (Size()+ Crust()  + getSpinach() + getPepper()+ getBacon() +getSausage()) * getNumber()  + 150;
+    
+    alert( "Dear customer,your total cost is ksh" +  add  + '' +    " your order will be delivered after 30 min at your location.Thank you.");
   
+  }
