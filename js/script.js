@@ -73,4 +73,8 @@ $(document).ready(function () {
     $("#deliver").click(function () {
         prompt("Enter your delivery location");
     });
+    $("#no").click(function(){
+    alert("Thank you for shopping with us.")
+    }
+    )
 });
