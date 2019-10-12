@@ -55,5 +55,10 @@
     }
     return parseInt (Sausage);
   }
+//   order calculation
+  function calculate(event) {
+    var calculate = (Size() + Crust()  + getSpinach() + getPepper()+ getBacon() +getSausage()) * getNumber() ;
+    document.getElementById("showleft").innerHTML = "Hello ,your order is " + '' + getNumber() + '' +  '' + "pizza" +" cost  is ksh. " + (calculate);
+    event.preventDefault();}
 
   
