@@ -67,3 +67,10 @@
     alert( "Dear customer,your total cost is ksh" +  add  + '' +    " your order will be delivered after 30 min at your location.Thank you.");
   
   }
+//   delivery option
+$(document).ready(function(){
+    $("#deliver").click(function(){
+        prompt("Enter your delivery location");
+    });
+  });
+  
