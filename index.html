@@ -157,101 +157,107 @@
                 by understanding your business goal, the user's needs and the product requiements<br>Thank you for being
                 part of us.</p>
         </div>
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="selection">
-                        <h4>Order Pizza Now </h4><br>
-                        <div class="Size">
-                            <select class=" select1" id="size" onselect="Size ();">
-                                <option>choose size</option>
-                                <option value="150"> small ksh.150</option>
-                                <option value="250"> medium ksh.250</option>
-                                <option value="300"> large Ksh.300</option>
-                            </select>
-                        </div><br>
-                        <div class="Crust">
-                            <h4>Would you like crust??</h4>
-                            <select class="select2" id="crust" onselect="Crust();">
-                                <option>choose crust</option>
-                                <option value="200">Crispy Ksh.200</option>
-                                <option value="200">Gluten-free Ksh.200</option>
-                                <option value="200">Vegan Ksh.200</option>
-                                <option value="200">Stuffed</option>
-
-                            </select>
-                        </div><br>
-
-                        <div class="Toppings">
-                            <h4>Would you like to choose topping for your selected pizza</h4>
-
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input spinach" id="spinach"
-                                    onclick="getSpinach();">
-
-                                <label class="custom-control-label" for="spinach" id="Spinach" value="200">Spinach
-                                    ksh.200</label>
-                            </div>
-
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input pepper" id="pepper"
-                                    onclick="getPepper();">
-
-                                <label class="custom-control-label" for="pepper" id="Peppers" value="200">Green
-                                    Peppers
-                                    ksh.200</label>
-                            </div>
-
-                            <div class="custom-control custom-checkbox custom-control-inline ">
-                                <input type="checkbox" class="custom-control-input bacon" id="bacon"
-                                    onclick="getBacon();">
-                                <label class="custom-control-label" for="dbacon" id="Bacon" value="200">Bacon
-                                    ksh.200</label>
-                            </div>
-
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input sausage" id="sausage"
-                                    onclick="getSausage();">
-                                <label class="custom-control-label" for="sausage" id="Sausage" value="200">Sausage
-                                    ksh.200</label>
-                            </div><br><br>
-                            <div class="quantity">
-                                <h4> How many pizza do you want?</h4>
-                                <select class="browser-default custom-select" id="getnumber" onselect="getNumber();">
-                                    <option value="1">1 </option>
-                                    <option value="2">2 </option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="selection">
+                            <h4>Order Pizza Now </h4><br>
+                            <div class="Size">
+                                <select class=" select1" id="size" onselect="Size ();">
+                                    <option>choose size</option>
+                                    <option value="150"> small ksh.150</option>
+                                    <option value="250"> medium ksh.250</option>
+                                    <option value="300"> large Ksh.300</option>
+                                </select>
+                            </div><br>
+                            <div class="Crust">
+                                <h4>Would you like crust??</h4>
+                                <select class="select2" id="crust" onselect="Crust();">
+                                    <option>choose crust</option>
+                                    <option value="200">Crispy Ksh.200</option>
+                                    <option value="200">Gluten-free Ksh.200</option>
+                                    <option value="200">Vegan Ksh.200</option>
+                                    <option value="200">Stuffed</option>
 
                                 </select>
+                            </div><br>
+
+                            <div class="Toppings">
+                                <h4>Would you like to choose topping for your selected pizza</h4>
+
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input spinach" id="spinach"
+                                        onclick="getSpinach();">
+
+                                    <label class="custom-control-label" for="spinach" id="Spinach" value="200">Spinach
+                                        ksh.200</label>
+                                </div>
+
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input pepper" id="pepper"
+                                        onclick="getPepper();">
+
+                                    <label class="custom-control-label" for="pepper" id="Peppers" value="200">Green
+                                        Peppers
+                                        ksh.200</label>
+                                </div>
+
+                                <div class="custom-control custom-checkbox custom-control-inline ">
+                                    <input type="checkbox" class="custom-control-input bacon" id="bacon"
+                                        onclick="getBacon();">
+                                    <label class="custom-control-label" for="dbacon" id="Bacon" value="200">Bacon
+                                        ksh.200</label>
+                                </div>
+
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input sausage" id="sausage"
+                                        onclick="getSausage();">
+                                    <label class="custom-control-label" for="sausage" id="Sausage" value="200">Sausage
+                                        ksh.200</label>
+                                </div><br><br>
+                                <div class="quantity">
+                                    <h4> How many pizza do you want?</h4>
+                                    <select class="browser-default custom-select" id="getnumber"
+                                        onselect="getNumber();">
+                                        <option value="1">1 </option>
+                                        <option value="2">2 </option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+
+                                    </select>
+                                </div>
+                                <br>
                             </div>
-                            <br>
+                            <button type="button" id="takeorder" class="btn btn-primary"
+                                onclick="calculate();">ORDER</button>
                         </div>
-                        <button type="button" id="takeorder" class="btn btn-primary"
-                            onclick="calculate();">ORDER</button>
                     </div>
                 </div>
                 <p id="showleft"></p>
                 <br><br>
-                <div class="col-md-6">
-                    <div id="Deliver">
+                <div class="container">
+                    <div class="col-md-6">
+                        <div id="Deliver">
 
-                        <p1>Order Pizza as your breakfast, lunch and supper<br> for late-night deliveries to the office
-                            or home.<br>
-                            Your
-                            favorite
-                            choose coming <br>to a desk near you.Thnak you for chosing us.</p1><br><br>
-                        <h4>Do you want your pizza delivered??</h4>
-                        <button type="button" id="deliver" class="btn btn-primary">YES</button><br><br>
-                        <button type="button" id="no" class="bg-danger">NO</button><br><br>
-                        <strong>Delivary is ksh.150</strong>
-                    </div>
-                    <br>
-                    <div id="order">
-                        <button type="button" id="take" class="btn btn-primary" onclick="Total();">CHECKOUT</button>
-                    </div>
+                            <p1>Order Pizza as your breakfast, lunch and supper<br> for late-night deliveries to the
+                                office
+                                or home.<br>
+                                Your
+                                favorite
+                                choose coming <br>to a desk near you.Thnak you for chosing us.</p1><br><br>
+                            <h4>Do you want your pizza delivered??</h4>
+                            <button type="button" id="deliver" class="btn btn-primary">YES</button><br><br>
+                            <button type="button" id="no" class="bg-danger">NO</button><br><br>
+                            <strong>Delivery is ksh.150</strong>
+                        </div>
+                        <br>
+                        <div id="order">
+                            <button type="button" id="take" class="btn btn-primary" onclick="Total();">CHECKOUT</button>
+                        </div>
 
+                    </div>
                 </div>
             </div>
         </div>
