@@ -56,10 +56,10 @@ function getSausage() {
     return parseInt(Sausage);
 }
 //   order calculation
-function calculate(event) {
+function calculate() {
     var calculate = (Size() + Crust() + getSpinach() + getPepper() + getBacon() + getSausage()) * getNumber();
-    document.getElementById("showleft").innerHTML = "Hello ,your order is " + '' + getNumber() + '' + '' + '' + "pizza" + " cost  is ksh. " + (calculate);
-    event.preventDefault();
+    document.getElementById("showleft").innerHTML = "Hello ,your order is " + '' + ''+ getNumber() + '' + '' + '' + "pizza" + " cost  is ksh. " + (calculate);
+    
 }
 //    Total price plus delivery charge 
 function Total() {
